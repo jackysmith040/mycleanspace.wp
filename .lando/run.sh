@@ -3,5 +3,5 @@ if [ ! -d "./wp-admin" ]; then
 fi
 
 if ! $(wp core is-installed); then
-	wp core install --url="http://wp-starter.local" --title="WP Starter" --admin_user="admin" --admin_password="password" --admin_email="admin@wp-starter.local" --skip-email
+	wp core install --url="http://mycleanspace.local" --title="My Clean Space" --admin_user="admin" --admin_password="password" --admin_email="admin@mycleanspace.local" --skip-email
 fi

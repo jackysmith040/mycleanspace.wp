@@ -1,4 +1,4 @@
-name: my-wp-starter
+name: mycleanspace
 recipe: wordpress
 config:
   php: 8.2
