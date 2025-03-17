@@ -20,11 +20,8 @@ services:
     portforward: true
     hogfrom:
       - appserver
-proxy:
-  appserver_nginx:
-    - wp-starter.local
 events:
   pre-start:
-    - appserver: .lando/pre-start.sh
+    - appserver: lando/pre-start.sh
   post-start:
-    - appserver: .lando/post-start.sh
+    - appserver: lando/post-start.sh
