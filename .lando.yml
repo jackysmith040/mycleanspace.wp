@@ -1,7 +1,7 @@
 name: mycleanspace
 recipe: wordpress
 config:
-  php: 8.2
+  php: 8.3
   composer_version: 2
   webroot: .
   database: mysql
